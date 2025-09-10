@@ -1,0 +1,6 @@
+nome = str(input("Digite seu nome: "))
+print("Seu nome é: ", nome.upper())
+print("Seu nome é: ", nome.lower())
+print("Seu nome é: ", len(nome.replace(" ", "")))
+divisao = nome.split()
+print("Seu primeiro nome é: ",divisao[0]," tem ", len(divisao[0]), "letras")
